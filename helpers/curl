@@ -1,0 +1,14 @@
+curl 'http://www.scpp.fr/SCPP/Accueil/REPERTOIRE/Catalogue/Choix_catalogue/BasePhonogrammes/tabid/81/language/en-US/Default.aspx' \
+-H 'Host: www.scpp.fr' \
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:39.0) Gecko/20100101 Firefox/39.0' \
+-H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' \
+-H 'Accept-Language: en-US,en;q=0.5' \
+--compressed \
+-H 'X-MicrosoftAjax: Delta=true' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' \
+-H 'Referer: http://www.scpp.fr/SCPP/Accueil/REPERTOIRE/Catalogue/Choix_catalogue/BasePhonogrammes/tabid/81/language/en-US/Default.aspx' \
+-H 'Cookie: .ASPXANONYMOUS=kHnAMkio0AEkAAAANDE2MGQ5NDUtMTU4NS00ZTQ1LWEyZDktYmNiMWYyZjY1ZTJk0; ASP.NET_SessionId=0jjyfbvmq2yb0ou2aluqsu45; language=en-US; __utma=95097886.278986735.1428468127.1428468127.1428470203.2; __utmc=95097886; __utmz=95097886.1428468127.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); DotNetNukeAnonymous=00b9c6f4-b09d-4e48-95d0-c9c7b8b8e849; __utmb=95097886.7.10.1428470203; __utmt=1' \
+-H 'Connection: keep-alive' \
+-H 'Pragma: no-cache' \
+--data 'ScriptManager=dnn$ctr487$XSM_UP|dnn$ctr487$XSM$ctl00$BFind&__EVENTTARGET=&__EVENTARGUMENT=&__LASTFOCUS=&__VIEWSTATE=%2FwEPZwUPOGQyM2ZlZDI1ZTY4YTBjX6QKO7Nrd2K5ny%2BvFsQKkoPAOXo%3D&dnn$PageHeader$MLLANGUAGESELECTOR$cboSelectLanguage=en-US&dnn$ctr404$SearchInput$txtSearch=&dnn$ctr487$XSM$ctl00$TxtTitre=&dnn$ctr487$XSM$ctl00$TxtInterprete=&dnn$ctr487$XSM$ctl00$Txtreference=&dnn$ctr487$XSM$ctl00$TxtISRC=USGJP1300325&dnn$ctr487$XSM$ctl00$TxtNomAlbum=&dnn$ctr487$XSM$ctl00$TxtBarcode=&dnn$ctr487$XSM$ctl00$ytbAnnFix$tbYear=&dnn$ctr487$XSM$ctl00$DdPaysFix=&dnn$ctr487$XSM$ctl00$ytbAnnPub$tbYear=&dnn$ctr487$XSM$ctl00$DdPaysPub=&dnn$ctr487$XSM$ctl00$TxtMarque=&dnn$ctr487$XSM$ctl00$ddGenres=&ScrollTop=&__dnnVariable=&dnn$ctr487$XSM$ctl00$BFind=Search'
